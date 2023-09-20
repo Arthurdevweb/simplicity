@@ -121,4 +121,24 @@ OBS: esta combinição será possível por meio da manipulação programada com 
     background-color: var(--cor-clara);
 }
 
- 
+/* Ecercícios */
+
+/* Crie uma regra CSS para formatar o artigo/seção de Destaque com as seguintes configurações:
+-Altura de uns 500px
+-Imagem de fundo (fundo-destaque)
+-Imagem de fundo deve ficar parada
+-Flex com alinhamento totalmente centralizado, e um elemento em -cima do outro (ou seja, em modo coluna)
+
+2) Crie uma regra CSS para formatar o h2 e o p contidos em Destaque. Faça com que os textos fiquem centralizados e com a cor clara  */
+
+.destaque {
+    height: 500px;
+    background-image: url(../imagens/fundo-destaque.jpg);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--cor-clara);
+    text-align: center;
+
+}
