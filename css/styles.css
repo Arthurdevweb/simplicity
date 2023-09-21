@@ -47,7 +47,9 @@ a {text-decoration: none;}
 header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 15vh;
+
 }
 
 
@@ -132,7 +134,7 @@ OBS: esta combinição será possível por meio da manipulação programada com 
 2) Crie uma regra CSS para formatar o h2 e o p contidos em Destaque. Faça com que os textos fiquem centralizados e com a cor clara  */
 
 .destaque {
-    height: 500px;
+    height: 85vh;
     background-image: url(../imagens/fundo-destaque.jpg);
     background-attachment: fixed;
     display: flex;
@@ -140,5 +142,26 @@ OBS: esta combinição será possível por meio da manipulação programada com 
     flex-direction: column;
     color: var(--cor-clara);
     text-align: center;
+    background-size: cover;
 
+}
+
+
+.destaque h2 {
+    /* clamp
+        tamanho mínimo
+        tamanho ideal
+        tamanho máximo */
+    font-size: clamp(3rem, 10vw, 7rem);
+}
+
+.destaque p {
+    font-size: clamp(1.5rem, 3vw, 3rem);
+}
+
+
+
+
+.historia iframe {
+    max-height: clamp (3rem, 10vh, 3rem);
 }
