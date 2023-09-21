@@ -154,16 +154,23 @@ OBS: esta combinição será possível por meio da manipulação programada com 
         tamanho ideal
         tamanho máximo */
     font-size: clamp(3rem, 10vw, 7rem);
-    animation-name: animaDestaque;
-    animation-duration: 5s;
+    
 }
 
 .destaque p {
     font-size: clamp(1.5rem, 3vw, 3rem);
-    animation-name: animaDestaque;
-    animation-duration: 5s;
+    
    
 }
+
+.destaque p, .destaque h2 {
+    animation-name: animaDestaque;
+    animation-duration: 5s;
+    color: var(--cor-clara);
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1) ;
+}
+
+
     
 
 
@@ -172,6 +179,28 @@ OBS: esta combinição será possível por meio da manipulação programada com 
         transform: translateY(-500px);}
     to{ opacity: 1;}
 }
+
+article h2 {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: Raleway, sans-serif;
+    color: var(--cor-titulo);
+}
+
+.front-end, .historia, .localizacao {
+    text-align: center;
+}
+
+article p {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+abbr {
+    text-decoration: none;
+    color: var(--cor-escura);
+}
+
 
 
 
