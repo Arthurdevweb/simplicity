@@ -201,6 +201,47 @@ abbr {
     color: var(--cor-escura);
 }
 
+.historia  {
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-attachment: fixed;
+    
+}
+
+.historia h2 {
+    color: var(--cor-clara);
+    text-shadow: 2px 5px black;
+    ,
+}
+
+.historia iframe {
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 2rem;
+}
+
+.localizacao iframe {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.limitador { 
+    width: 95vw;
+    margin: auto;
+}
+
+footer {
+    background-color: var(--cor-escura);
+    color: var(--cor-clara);
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+
 
 
 
