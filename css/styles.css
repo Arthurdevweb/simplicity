@@ -272,6 +272,28 @@ footer {
 
 
 
+/* Exercícios: Regras condicionais (Media Queries) */
+
+/* 1) Crie uma regra condicional pera telas a partir de 570px com as seguintes alterações:
+
+-Esconder a palavra Menu
+-Habilitar o flex para a classe "menu"
+-Definir largura de 100% para os itens dentro do "menu"
+-Definir largura de 70% para o nav
+-Reduzir para 200px a altura da imagem contida no artigo Front-end */
+
+
+
+
+
+
+/* 2) Crie uma regra condicional para telas a partir de 900px com as seguintes alterações::after
+
+-Aumentar o tamanho geral de todos os textos para 18px
+-Definir o tamanho máximo da classe limitador para 1000px; */
+
+
+
 
 
 
