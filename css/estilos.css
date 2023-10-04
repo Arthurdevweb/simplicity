@@ -345,6 +345,29 @@ tanto com mouse quanto com teclado. */
 
 
 
+/* Regras para o formulário */
+form {
+    max-width: 500px;
+    margin: auto;
+    background-color: green;
+}
+
+input, select, textarea {
+    border: none;
+    padding: 4px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+textarea { height: auto;}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+
+}
 
 
 
