@@ -59,7 +59,7 @@
                 <div>
                     <label for="cep">CEP: <br><span id="status"></span></label>
                     <div id="area-do-cep">
-                        <input placeholder="Somente números" type="text" id="cep" name="cep" maxlength="8" inputmode="numeric" required> <br>
+                        <input placeholder="Somente números" type="text" id="cep" name="cep" maxlength="9" inputmode="numeric" required> <br>
                         <button id="buscar">Buscar</button>
                     </div>
                 </div>
@@ -69,14 +69,14 @@
                 </div>
                 <div>
                     <label for="bairro">Bairro:</label>
-                    <input type="text" id="bairro" name="bairro">
+                    <input readonly type="text" id="bairro" name="bairro">
                 </div>
                 <div>
                     <label for="cidade">Cidade:</label>
-                    <input type="text" id="cidade" name="cidade">
+                    <input readonly type="text" id="cidade" name="cidade">
                 </div>
                 <div>
-                    <label for="estado">Estado:</label>
+                    <label readonly for="estado">Estado:</label>
                     <input type="text" id="estado" name="estado">
                 </div>
                 <!-- /FIM HTML PARA CEP/ENDEREÇO --> 
@@ -120,6 +120,14 @@
             para fins educacionais &copy; <b>Senac Penha</b>
             - <time>2023</time> </p>
     </footer>
+
+    
+    <!-- Importação da biblioteca jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+    <!-- Impo -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
 
     <script src="js/menu.js"></script>
 

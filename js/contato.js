@@ -9,10 +9,26 @@ const campoEstado = formulario.querySelector("#estado");
 const botaoBuscar = formulario.querySelector("#buscar");
 const mensagem = formulario.querySelector("#status");
 
+// Seleção do campo telefone usando JS puro 
+const campoTelefone = formulario.querySelector("#telefone");
+
+// Seleção do campo telefone usando jQuery
+// const campoTelefone = $("#telefone");
+
+
+// Ativando a máscara para o telefone 
+
+$(campoTelefone).mask("(00) 00000-0000")
+
+$(campoCep).mask("00000-000")
+
+
+
+
+
+
+
 // Detectando o evento de CLICK no botão buscar
-
-
-
 
 
 botaoBuscar.addEventListener("click", async function(event){
