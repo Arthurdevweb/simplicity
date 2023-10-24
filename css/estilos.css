@@ -403,6 +403,15 @@ button:hover, button:focus {
     padding: 12px;
 }
 
+#buscar {
+    width: 39%;
+    padding: 12px;
+}
+
+#status {
+    font-size: 12px;
+}
+
 
 
 
