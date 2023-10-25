@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serviços - Simplicity</title>
+    <link rel="stylesheet" href="lightbox/css/lightbox.min.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
@@ -34,16 +35,16 @@
                 repudiandae quos rerum repellat fugit esse accusamus hic? Aliquid, aspernatur.</p>
 
             <figure class="galeria">
-                <a href="imagens/desenvolvimento-web.jpg">
+                <a data-title="O que web design" data-lightbox="fotos" href="imagens/desenvolvimento-web.jpg">
                     <img src="imagens/desenvolvimento-web-mini.jpg" alt="">
                 </a>
-                <a href="imagens/design-grafico.jpg">
+                <a data-title="Photoshop" data-lightbox="fotos" href="imagens/design-grafico.jpg">
                     <img src="imagens/design-grafico-mini.jpg" alt="">
                 </a>
-                <a href="imagens/marketing-digital.jpg">
+                <a data-title="Digtal marketing" data-lightbox="fotos" href="imagens/marketing-digital.jpg">
                     <img src="imagens/marketing-digital-mini.jpg" alt="">
                 </a>
-                <a href="imagens/consultoria-treinamento.jpg">
+                <a data-title="Ideias" data-lightbox="fotos" href="imagens/consultoria-treinamento.jpg">
                     <img src="imagens/consultoria-treinamento-mini.jpg" alt="">
                 </a>
             </figure>
@@ -75,7 +76,21 @@
             - <time>2023</time> </p>
     </footer>
 
+      <!-- Importação da biblioteca jQuery -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="lightbox/js/lightbox.min.js"></script>
+
+
+    <script>
+        lightbox.option({
+            albumLabel:"Foto %1 de %2"
+        });
+    </script>
+
+
     <script src="js/menu.js"></script>
+
 
 </body>
 
