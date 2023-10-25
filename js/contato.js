@@ -20,7 +20,7 @@ const campoTelefone = formulario.querySelector("#telefone");
 
 $(campoTelefone).mask("(00) 00000-0000")
 
-$(campoCep).mask("00000-000")
+
 
 
 
